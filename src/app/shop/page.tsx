@@ -24,23 +24,23 @@ const Shop = () => {
       
     </div>
     <div className='flex flex-wrap w-[86%] justify-between ml-[7%]'>
-        <Image className='w-[100%] sm:w-[17%] '
+        <Image className='w-[100%] sm:w-[17%] my-3 '
         src={cover1}
         alt='cover'></Image>
 
-<Image className='w-[100%] sm:w-[17%]'
+<Image className='w-[100%] sm:w-[17%]  my-3'
         src={cover2}
         alt='cover'></Image>
 
-<Image className='w-[100%] sm:w-[17%]'
+<Image className='w-[100%] sm:w-[17%]  my-3'
         src={cover3}
         alt='cover'></Image>
 
-<Image className='w-[100%] sm:w-[17%]'
+<Image className='w-[100%] sm:w-[17%]  my-3'
         src={cover4}
         alt='cover'></Image>
 
-<Image className='w-[100%] sm:w-[17%]'
+<Image className='w-[100%] sm:w-[17%]  my-3'
         src={cover5}
         alt='cover'></Image>
     </div>

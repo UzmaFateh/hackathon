@@ -40,27 +40,27 @@ const About = () => {
                 </Image>
             </div>
 
-            <div className='flex flex-wrap w-[90%] justify-between ml-[5%] mt-10  '>
-                <div className='w-[90%] sm:w-[35%]'>
-                    <p className='text-sm text-red-600'>Problems trying</p>
+            <div className='flex flex-wrap w-[86%] justify-between ml-[5%] mt-14  '>
+                <div className='w-[80%] ml-[14%] sm:ml-10% sm:w-[35%]'>
+                    <p className='text-sm text-red-600 my-3'>Problems trying</p>
                     <h1 className='text-2xl font-bold'>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.</h1>
                 </div>
-                <div className=' w-[50%]'>
+                <div className='w-[80%] sm:w-[50%]'>
                     <p className='text-gray-500 text-sm  pt-8 pl-10'>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
                 </div>
             </div>
 
 
-            <div className='flex flex-wrap justify-between w-[80%] my-10 mx-auto'>
-                <div >
-                    <h1 className='sm:text-6xl font-bold'>15K</h1>
+            <div className='flex flex-wrap justify-between w-[20%] sm:w-[80%] my-14 mx-auto'>
+                <div className='my-3 text-center'>
+                    <h1 className='text-3xl sm:text-6xl font-bold'>15K</h1>
                     <p className='text-sm text-gray'>Happy Customers</p>
                 </div>
-                <div >  <h1 className='sm:text-6xl font-bold'>150K</h1>
+                <div className='my-3 text-center'>  <h1 className='text-3xl  sm:text-6xl font-bold'>150K</h1>
                     <p className='text-sm text-gray'>Monthly Visitors</p></div>
-                <div >  <h1 className='sm:text-6xl font-bold'>15</h1>
+                <div className='my-3 text-center'>  <h1 className='text-3xl  sm:text-6xl font-bold'>15</h1>
                     <p className='text-sm text-gray'>Monthly Visitors</p></div>
-                <div >  <h1 className='sm:text-6xl font-bold'>100+</h1>
+                <div className='my-3 text-center'>  <h1 className='text-3xl  sm:text-6xl font-bold'>100+</h1>
                     <p className='text-sm text-gray'>Top Partners</p></div>
             </div>
 

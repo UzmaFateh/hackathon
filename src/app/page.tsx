@@ -21,28 +21,28 @@ height={400}></Image>
 
 <div>
   <center>
-  <h1 className="font-semibold text-lg pt-12">Editor,s Pick</h1>
+  <h1 className="font-semibold text-lg pt-12 mt-4">Editor,s Pick</h1>
   <p className="text-sm text-gray-500 pb-8">Problems trying to resolve the conflict between </p>
   </center>
 </div>
 <div  className="  sm:flex flex-wrap pl-[12%] pb-[8%] "  >
-<Image className="mt-8 w-[90%] sm:w-[40%] h-[450px]"
+<Image className="mt-8 w-[90%] sm:w-[40%]"
 src={hero1}
 alt="carousel"
 width={100}
 height={100}></Image>
-<Image className="mt-8 w-[90%] sm:w-[20%] h-[450px] sm:ml-6"
+<Image className="mt-8 w-[90%] sm:w-[20%] sm:ml-6"
 src={hero2}
 alt="carousel"
 width={100}
 height={100}></Image>
 <div>
-<Image className="mt-8 w-[100%] h-[220px] -ml-4  sm:ml-6"
+<Image className="mt-8 w-[100%]  -ml-4  sm:ml-6"
 src={hero3}
 alt="carousel"
 width={150}
 height={90}></Image>
-<Image className="mt-6  w-[100%] h-[210px] -ml-4 sm:ml-6"
+<Image className="mt-6  w-[100%]  -ml-4 sm:ml-6"
 src={hero4}
 alt="carousel"
 width={150}
