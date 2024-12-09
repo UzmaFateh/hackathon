@@ -1,101 +1,96 @@
 import Image from "next/image";
+import carousel from "../../public/carousel-item.png"
+import hero1 from "../../public/col-md-6 (1).png"
+import hero2 from "../../public/col-md-3.png"
+import hero3 from "../../public/card-item.png"
+import hero4 from "../../public/media bg-cover.png"
+import Card from "@/components/card";
+import banner from "../../public/col-md-6 (2).png"
+import hero5 from "../../public/hero-cover-1.png"
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+ <div>
+<Image className="mt-8"
+src={carousel}
+alt="carousel"
+width={1250}
+height={400}></Image>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+<div>
+  <center>
+  <h1 className="font-semibold text-lg pt-12">Editor,s Pick</h1>
+  <p className="text-sm text-gray-500 pb-8">Problems trying to resolve the conflict between </p>
+  </center>
+</div>
+<div  className="  sm:flex flex-wrap pl-[12%] pb-[8%] "  >
+<Image className="mt-8 w-[90%] sm:w-[40%] h-[450px]"
+src={hero1}
+alt="carousel"
+width={100}
+height={100}></Image>
+<Image className="mt-8 w-[90%] sm:w-[20%] h-[450px] sm:ml-6"
+src={hero2}
+alt="carousel"
+width={100}
+height={100}></Image>
+<div>
+<Image className="mt-8 w-[100%] h-[220px] -ml-4  sm:ml-6"
+src={hero3}
+alt="carousel"
+width={150}
+height={90}></Image>
+<Image className="mt-6  w-[100%] h-[210px] -ml-4 sm:ml-6"
+src={hero4}
+alt="carousel"
+width={150}
+height={90}></Image>
+</div>
+
+ </div>
+ <Card />
+
+ <div className="bg-green-500 flex flex-wrap justify-around">
+  <div className="pt-[10%]  sm:pl-[10%] w-[80%] sm:w-[40%]">
+    <p className="text-white text-lg font-semibold py-4">SUMMER 2020</p>
+    <h1 className="text-white text-6xl font-semibold py-4">Vita Classic Product</h1>
+    <p className="text-white text-sm  py-4">We know how large objects will act, We know how are objects will act, We know</p>
+    <div>
+      <div className="flex">
+        <p className="text-white font-bold text-2xl pt-3">$16.18</p>
+      <button className="text-white font-semibold text-4 bg-green-400 w-[184px] h-[52px] ml-8 border-0 rounded-md">ADD TO CART</button></div>
     </div>
+  </div>
+  <Image className="w-45%] pt-[10%]"
+  src={banner}
+  alt="banner">
+
+  </Image>
+ </div>
+{/* hero sec */}
+ <div className=" flex flex-wrap justify-around">
+ <Image className="  sm;w-[45%] pt-[2%] pl-[10%]"
+  src={hero5}
+  alt="banner">
+
+  </Image>
+  <div className="pt-[10%] -ml-4 w-[80%] sm:w-[30%]">
+    <p className="text-gray-400 text-xs font-semibold py-4">SUMMER 2020</p>
+    <h1 className=" text-4xl font-bold py-4">Part of the Neural 
+    Universe</h1>
+    <p className="text-gray-500 text-xl  py-4">We know how large objects will act, We know how are objects will act, We know</p>
+    <div>
+      <div className="flex">
+      <button className="text-white font-semibold text-4 bg-green-400 w-[174px] h-[52px]  border-0 rounded-md">READ MORE</button>
+      <button className="text-green-500 font-semibold text-4 border-2 border-green-500  w-[174px] h-[52px] ml-1 rounded-md">BUY NOW</button></div>
+    </div>
+  </div>
+
+ </div>
+ <Footer />
+</div>
+
   );
 }
