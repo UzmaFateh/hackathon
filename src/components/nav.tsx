@@ -2,8 +2,9 @@
 import React, { useState } from 'react';
 import { IoMdSearch } from "react-icons/io";
 import { CiShoppingCart } from "react-icons/ci";
-import { IoHeartDislikeOutline } from "react-icons/io5";
+
 import { MdOutlinePerson } from "react-icons/md";
+import { FiHeart } from "react-icons/fi";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Hamburger icons
 import Link from 'next/link';
 
@@ -56,7 +57,8 @@ const Nav = () => {
         </a>
         <a className="hover:text-gray-900 text-base"><IoMdSearch /></a>
         <a className="hover:text-gray-900 text-base"><CiShoppingCart /></a>
-        <a className="hover:text-gray-900 text-base"><IoHeartDislikeOutline /></a>
+       
+        <a className="hover:text-gray-900 text-base">< FiHeart /></a>
       </div>
     </div>
   );

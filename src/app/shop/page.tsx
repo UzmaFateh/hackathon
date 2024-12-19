@@ -65,11 +65,21 @@ const Shop = () => {
   
 
     <div className='flex ml-[20%] sm:ml-[40%] my-10'>
-      <button className='bg-gray-100 text-gray-400 w-[60px] h-[50px] border-2 border-gray-400 rounded-md'>First</button>
-      <button className='text-blue-500 w-[30px] h-[50px] border-2 border-gray-400 '>1</button>
-      <button className='text-blue-500 w-[30px] h-[50px] border-2 border-gray-400 '>2</button>
-      <button className='text-blue-500 w-[30px] h-[50px] border-2 border-gray-400 '>3</button>
-      <button className='bg-blue-500 text-white w-[60px] h-[50px] border-2 border-gray-400 rounded-md'>Next</button>
+      <table  className='border-2 rounded-md border-gray-400 border-separate'>
+        <thead></thead>
+        <tbody>
+        <tr className='border-2 rounded-md border-gray-400 ' >
+          <td className='bg-gray-100 text-gray-400 w-[60px] h-[50px] border-r-2 border-gray-400 text-center '>First</td>
+          <td  className='text-blue-500 w-[30px] h-[50px] border-r-2 border-gray-400 text-center'>1</td>
+          <td  className='text-blue-500 w-[30px] h-[50px] border-r-2 border-gray-400 text-center'>2</td>
+          <td  className='text-blue-500 w-[30px] h-[50px] border-r-2 border-gray-400 text-center'>3</td>
+          <td className='bg-blue-500 text-white w-[60px] h-[50px] text-center'>Next</td>
+          
+          
+        </tr>
+        </tbody>
+      </table>
+      
     </div>
 
     </div>
