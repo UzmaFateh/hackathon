@@ -56,16 +56,16 @@ export default function Home() {
           width={100}
           height={100}
         />
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap sm:flex-col justify-center gap-6">
           <Image
-            className="w-[250px]"
+            className="w-full   sm:w-[250px]"
             src={hero3}
             alt="carousel"
             width={250}
             height={90}
           />
           <Image
-            className="w-[250px]"
+            className=" w-full sm:w-[250px]"
             src={hero4}
             alt="carousel"
             width={250}
